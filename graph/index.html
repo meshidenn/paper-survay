@@ -1,0 +1,21 @@
+---
+layout: default
+title: Graph Related Paper
+avatar: false
+---
+<h1>Graph Related Paper({{site.categories.Graph | size}})</h1>
+  <ul class="post-list">
+    {% assign sortedPosts = site.categories.Graph | sort: 'date' | reverse %}
+    {% for post in sortedPosts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+{% if paginator.total_pages > 1 %}<!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %} <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="prev">← Newer Posts</a> {% endif %}
+    {% if paginator.next_page %} <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Older Posts →</a>{% endif %}
+  </div>{% endif %}
