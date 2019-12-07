@@ -52,13 +52,11 @@ categories: NLP Theory Graph Others
 
 
 ## このページの作成について
-このページ({% include icon-github.html username="meshidenn" %}[paper-survey](https://github.com/meshidenn/paper-survey))は、[こちらのページ](https://github.com/shunk031/paper-survey)を参考に作成しました。
+[このページ](https://github.com/meshidenn/paper-survey))は、[こちらのページ](https://github.com/shunk031/paper-survey)を参考に作成しました。
 
 基本テンプレートは、以下を組み合わせています。
-- {% include icon-github.html username="rmsubekti" %}[emping](https://github.com/rmsubekti/emping) 
-- {% include icon-github.html username="pages-theme" %}[slate](https://github.com/pages-themes/slate)
+- [emping](https://github.com/rmsubekti/emping) 
+- [slate](https://github.com/pages-themes/slate)
 
-基本フレームワークはJekyllです。
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+基本フレームワークは[Jekyll](https://github.com/jekyll/jekyll)です。
 
