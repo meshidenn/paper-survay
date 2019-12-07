@@ -14,6 +14,9 @@ categories: NLP
 # 結果
 max-poolingとロバストな相関係数を使用することで、STSタスクの多くにおいてでのピアソン相関が向上。さらに、カーネルを使用する方法は、STSタスクの年代によっては、ピアソン相関が向上。
 
+![Figure 1](/assets/nlp/Correlations_between_Word_Vector_Sets/fig1.png)
+![Figure 2](/assets/nlp/Correlations_between_Word_Vector_Sets/fig2.png)_
+
 
 
 # 次に読むべき論文
