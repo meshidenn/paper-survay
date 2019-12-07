@@ -1,33 +1,64 @@
-# Emping - Amp theme for jekyll
-An Amphtml theme for your jekyll blog, based on default Jekyll theme. Theme design inspired from the Jekyll [Kactus](https://github.com/nickbalestra/kactus) theme.
+## このページについて
+このページは、[meshidenn](https://github.com/meshidenn/)が読んだ論文の簡易なまとめをメモするページです。
+まとめのフォーマットは、落合先生フォーマットか、paperchallengeのフォーマットを使用します。
 
-![screenshoot](https://github.com/rmsubekti/emping/raw/master/Screenshot.png)
-
-### Feature
-
-- [x] **Amp Page**
-- [x] **Google Analytics**
-- [x] **Pagination**
-- [x] **404 Error Page**
-- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
-- [x] **Share Button**
-
-### [View Demo](http://rmsubekti.github.io/emping)
-
-### Use this theme
-Simply fork this repo, and rename to `your_github_username.github.io`.
-
-### Run this theme on your local machine
-To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), then run this command.
-
+### 落合先生フォーマット
 ```
-git clone git@github.com:rmsubekti/emping.git
-cd emping
-bundle install
-bundle exec jekyll s
+---
+layout: post
+title:  "論文タイトル"
+date:   YYYY-MM-DD
+categories: NLP Theory Graph Others
+---
+
+## 1. どんなもの？
+
+## 2. 先行研究と比べてどこがすごいの？
+
+## 3. 技術や手法の"キモ"はどこにある？
+
+## 4. どうやって有効だと検証した？
+
+## 5. 議論はあるか？
+
+## 6. 次に読むべき論文はあるか？
+
+### 論文情報・リンク
+
+- [著者，"タイトル，" ジャーナル名，voluem，no.，ページ，年](論文リンク)
 ```
 
-You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/emping/blob/master/_config.yml) file.
+### pallerchallengeフォーマット
+```
+---
+layout: post
+title:  "論文タイトル"
+date:   YYYY-MM-DD
+categories: NLP Theory Graph Others
+---
 
-License : [MIT](https://github.com/rmsubekti/emping/blob/master/LICENSE.md)
-Feel free to fork, change, modify and re-use it.
+## 概要
+
+## 新規性
+
+## 結果
+
+## 次に読むべき論文
+
+### 論文情報・リンク
+
+- [著者，"タイトル，" ジャーナル名，voluem，no.，ページ，年](論文リンク)
+```
+
+
+## このページの作成について
+このページ({% include icon-github.html username="meshidenn" %}[paper-survey](https://github.com/meshidenn/paper-survey))は、[こちらのページ](https://github.com/shunk031/paper-survey)を参考に作成しました。
+
+基本テンプレートは、以下を組み合わせています。
+- {% include icon-github.html username="rmsubekti" %}[emping](https://github.com/rmsubekti/emping) 
+- {% include icon-github.html username="pages-theme" %}[slate](https://github.com/pages-themes/slate)
+
+基本フレームワークはJekyllです。
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)
+
