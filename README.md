@@ -52,7 +52,7 @@ categories: NLP Theory Graph Others
 
 
 ## このページの作成について
-[このページ](https://github.com/meshidenn/paper-survey))は、[こちらのページ](https://github.com/shunk031/paper-survey)を参考に作成しました。
+[このページ](https://github.com/meshidenn/paper-survey)は、[こちらのページ](https://github.com/shunk031/paper-survey)を参考に作成しました。
 
 基本テンプレートは、以下を組み合わせています。
 - [emping](https://github.com/rmsubekti/emping) 
