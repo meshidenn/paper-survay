@@ -26,11 +26,4 @@ categories: Theory
 ## 4. どうやって有効だと検証した？
 - 以下の実験結果
 
-![tables]({{ site.baseurl }}/assets/img/theory/A_Theoretical_Analysis_of_Contrastive_Unsupervised_Representation_Learning/table1.png)
-
-
-
-## 5. 議論はあるか？
-
-## 6. 次に読むべき論文はあるか？
-- Amit M, Shmerler Y, Eisenberg E, Abraham M, Shnerb N (1994) Language and codificatio dependence of long-range correlations in texts.
+![tables]({{ site.baseurl }}/assets/img/theory/A_Theoretical_Analysis_of_Contrastive_Unsupervised_Representation_Learning/tables.png)
